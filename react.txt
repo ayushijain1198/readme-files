@@ -1,0 +1,35 @@
+mport ExpenseItem from './components/ExpenseItem';
+import DisplayCustomer from "./components/Customer";
+function App() {
+  return (
+    <div>
+      <h2>Let's get started!</h2>
+      <ExpenseItem></ExpenseItem>
+        <DisplayCustomer></DisplayCustomer>
+    </div>
+  );
+}
+export default App;
+
+
+
+
+
+function ExpenseItem() {
+  return <h2>Expense item!</h2>;
+}
+export default ExpenseItem;
+
+
+
+
+[15:52] Nilay Das
+    
+
+function DisplayCustomer() {​​​​​​​​
+    return <h2>Display All Customer!</h2>;
+}​​​​​​​​
+export default DisplayCustomer;
+
+
+​
